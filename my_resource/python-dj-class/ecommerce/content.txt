@@ -1,0 +1,3 @@
+https://learnbatta.com/course/django/mtv-architecture/
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication

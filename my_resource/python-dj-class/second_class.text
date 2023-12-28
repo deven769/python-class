@@ -1,0 +1,59 @@
+
+
+
+4. Itration
+
+	1. forloop
+	2. while loop 
+
+
+DATATYPES IN DETAIL
+
+1. Numbers:
+	- type casting
+	- int
+	- float
+	- complex
+2. String:
+			
+			single_quoted = 'Hello, World!'
+			double_quoted = "Hello, World!"
+			multiline = '''This is a
+			multiline string.'''
+
+			immutable, memory efficient
+
+			1. concat
+			2. indexing and slicing
+			3. formating:
+
+				name = 'Alice'
+				age = 30
+				formatted = 'Name: %s, Age: %d' % (name, age)
+				formatted = 'Name: {}, Age: {}'.format(name, age)
+				formatted = f'Name: {name}, Age: {age}'
+
+
+3. Itration
+
+	1. for Loop:
+		The for loop is used for iterating over a sequence (that is either a list, tuple, dictionary, string, or other iterable types).
+
+
+		fruits = ["apple", "banana", "cherry"]
+		for fruit in fruits:
+		    print(fruit)
+
+	2. while Loop:
+		The while loop is used for executing a block of code as long as the specified condition is true.
+
+
+			count = 0
+			while count < 5:
+			    print(count)
+			    count += 1
+
+	3. range Function:
+	The range function can be used to generate a sequence of numbers that can be iterated over.
+		for i in range(5):
+		    print(i)

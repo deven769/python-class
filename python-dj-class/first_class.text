@@ -1,0 +1,54 @@
+													
+				!!!Code your dreams into reality!!!
+
+1. Intro
+2. Installation
+     1. Ubuntu: https://www.youtube.com/watch?v=IAco2SSuGms
+     2. Windows: https://www.youtube.com/watch?v=Z92vDtiVVYs
+     3. Mac: 
+
+3. Course content
+4. Fundamental programming 
+	- Interpreted language
+	- Diff Interpreted vs Compile language
+	- Python is an interpreted language, which means that the Python code is executed line by line by the Python interpreter.  This is in contrast to compiled languages where the entire code is translated into machine code before execution.
+	
+	1. Naming convension: 
+		1. Function and variables: snake_case
+		2. Constants: uppercase_uppercase
+		3. Classes: CamelCaseBeginWithCapital
+					  !!!!!!!!!!!!!!!Concept only !!!!!!!!!!!!!
+		4. Module :   HW
+		5. Packages : HW 
+		6. Private and Protected Members: __ and _
+		7. Avoid Single Letter Names: i
+
+	2. 	Text Type:	str
+		Numeric Types:	int, float, complex
+		Sequence Types:	list, tuple, range
+		Mapping Type:	dict
+		Set Types:	set, frozenset
+		Boolean Type:	bool
+		Binary Types:	bytes, bytearray, memoryview
+		None Type:	NoneType
+	
+	3. Conditionals:
+		1. if statement
+		2. if - else statement
+		3. if - elseif - else
+		4. Nested
+		5. 
+
+		def is_palindrome(s):
+		    # Remove spaces and convert to lowercase
+		    s = ''.join(char.lower() for char in s if char.isalnum())
+
+		    # Check if the string is equal to its reverse
+		    return s == s[::-1]
+
+		# Test cases
+		print(is_palindrome("radar"))  # True
+		print(is_palindrome("Hello, World!"))  # False
+		print(is_palindrome("A man a plan a canal Panama"))  # True
+
+

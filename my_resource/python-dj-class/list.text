@@ -1,0 +1,95 @@
+1. Creating Lists:
+	You can create a list by placing elements inside square brackets []. Elements can be of any data type, and a list can contain elements of different data types.
+
+	- Ordered
+	- Changeable
+	- Allow duplicate
+
+
+
+	# Creating an empty list
+	empty_list = []
+
+	# Creating a list of integers
+	int_list = [1, 2, 3, 4, 5]
+
+	# Creating a list of strings
+	str_list = ["apple", "banana", "cherry"]
+
+	# Creating a mixed-type list
+	mixed_list = [1, "two", 3.0, [4, 5]]
+
+	2. Accessing Elements:
+	You can access individual elements in a list using indexing. Indexing starts at 0 for the first element.
+
+	fruits = ["apple", "banana", "cherry"]
+	print(fruits[0])  # Output: "apple"
+	print(fruits[1])  # Output: "banana"
+	print(fruits[-1])  # Output: "cherry" (negative indexing starts from the end)
+
+	3. Slicing:
+	You can extract a sublist (slice) from a list using slicing notation.
+
+	numbers = [1, 2, 3, 4, 5]
+	print(numbers[1:4])  # Output: [2, 3, 4]
+
+	4. Modifying Lists:
+	Lists are mutable, so you can change their elements, add new elements, or remove existing ones.
+
+	fruits = ["apple", "banana", "cherry"]
+	fruits[1] = "orange"  # Modify an element
+	fruits.append("grape")  # Add an element to the end
+	fruits.insert(1, "kiwi")  # Insert an element at a specific position
+	fruits.remove("cherry")  # Remove a specific element
+	del fruits[0]  # Remove an element by index
+
+	5. List Methods:
+	Python provides several built-in methods for working with lists, such as append(), extend(), pop(), count(), sort(), and more.
+
+
+	numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+	numbers.sort()  # Sort the list in ascending order
+	numbers.reverse()  # Reverse the order of elements
+	count_of_5 = numbers.count(5)  # Count occurrences of a specific value
+	numbers.pop()  # Remove and return the last element
+
+	6. Looping and List Comprehensions:
+
+	for i in list:
+		print(i)
+
+	List comprehensions provide a concise way to create lists.
+
+	squares = [x**2 for x in range(5)]
+	# Output: [0, 1, 4, 9, 16]
+
+	7. Nested Lists:
+	Lists can contain other lists, creating nested structures.
+
+	python
+	Copy code
+	matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+	print(matrix[1][1])  # Output: 5
+	
+	8. List Membership:
+	You can check if an element is present in a list using the in operator.
+
+
+	fruits = ["apple", "banana", "cherry"]
+	print("banana" in fruits)  # Output: True
+	print("orange" in fruits)  # Output: False
+
+	9. Length of a List:
+	You can find the number of elements in a list using the len() function.
+
+	numbers = [1, 2, 3, 4, 5]
+	print(len(numbers))  # Output: 5
+
+	Python lists are versatile and powerful, making them a fundamental data structure in many programs. They are widely used in various applications for organizing and manipulating collections of data.
+
+
+
+
+
+
+

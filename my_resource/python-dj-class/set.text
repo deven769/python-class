@@ -1,0 +1,58 @@
+Definition and Creation:
+	A set in Python is an unordered collection of unique elements. It is defined by enclosing a comma-separated sequence of elements inside curly braces {}.
+	my_set = {1, 2, 3, 4, 5}
+	
+Basic Operations:
+	Adding Elements:
+		You can add elements to a set using the add() method.
+		my_set.add(6)
+
+	Removing Elements:
+		Elements can be removed using the remove() or discard() methods.
+
+		my_set.remove(3)
+		my_set.discard(3)
+
+		The key difference between remove() and discard() is that remove() raises a KeyError if the element is not found, whereas discard() does not.
+
+	Set Operations:
+	Python sets support various operations, including union, intersection, difference, and symmetric difference.
+
+	Union (|):
+	Returns a new set containing all unique elements from both sets.
+
+
+	set1 = {1, 2, 3}
+	set2 = {3, 4, 5}
+	union_set = set1 | set2
+	Intersection (&):
+	Returns a new set containing common elements from both sets.
+
+	intersection_set = set1 & set2
+	Difference (-):
+	Returns a new set with elements from the first set that are not in the second set.
+
+
+	difference_set = set1 - set2
+	Symmetric Difference (^):
+	Returns a new set with elements that are in either of the sets, but not in both.
+	symmetric_difference_set = set1 ^ set2
+
+	Set Methods:
+	clear():
+	Removes all elements from the set.
+	my_set.clear()
+	copy():
+	Returns a shallow copy of the set.
+
+
+	my_set_copy = my_set.copy()
+	pop():
+	Removes and returns an arbitrary element from the set. Raises a KeyError if the set is empty.
+	popped_element = my_set.pop()
+
+	update():
+	Updates the set with elements from another iterable or multiple iterables.
+	my_set.update({6, 7, 8})
+
+	These are some of the fundamental aspects of working with sets in Python. Sets are particularly useful when dealing with tasks that require checking membership, eliminating duplicates, or performing set operations efficiently.

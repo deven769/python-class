@@ -1,0 +1,70 @@
+Immutability:
+
+Tuple: Tuples are immutable, meaning once a tuple is created,you cannot modify its elements. You cannot add, remove, or change elements in a tuple.
+
+
+Tuple: Tuples are created using parentheses () or the tuple() constructor.
+
+
+
+When to Use Tuples:
+	Use tuples when the data should not be modified.
+	Use tuples for heterogeneous data types.
+	Use tuples for col1lections that represent a single entity or record.
+
+Operations:
+	Concatenation: You can concatenate tuples using the + operator.
+	
+	tuple1 = (1, 2, 3)
+	tuple2 = ('a', 'b', 'c')
+	concatenated_tuple = tuple1 + tuple2
+
+	Repetition: You can create a new tuple by repeating an existing tuple using the * operator.
+
+	repeated_tuple = (1, 2) * 3  # Creates (1, 2, 1, 2, 1, 2)
+	
+	Slicing: You can use slicing to extract sub-tuples.
+	
+	my_tuple = (1, 2, 3, 'apple', 'banana', 'cherry')
+	sliced_tuple = my_tuple[1:4]  # Creates (2, 3, 'apple')
+
+
+Unpacking Tuple: 
+	fruits = ("apple", "banana", "cherry")
+	(green, yellow, red) = fruits
+
+	(green, *red)
+	
+	finding indexing*********
+	index_of_apple = fruits.index("apple")
+
+
+
+Problems: 
+
+- You have a list of numbers. Write a Python function that takes the list as input and returns a tuple containing the sum of all the numbers and the product of all the numbers.
+
+	numbers = [1, 2, 3, 4, 5]
+	result = process_numbers(numbers)
+	print(result)
+
+	(15, 120)
+
+
+def process_numbers(number_list):
+    # Initialize sum and product variables
+    total_sum = 0
+    total_product = 1
+
+    # Iterate through the list
+    for number in number_list:
+        total_sum += number
+        total_product *= number
+
+    # Return a tuple with sum and product
+    return total_sum, total_product
+
+# Example usage
+numbers = [1, 2, 3, 4, 5]
+result = process_numbers(numbers)
+print(result)
